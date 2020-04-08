@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67BDA90E243DC07100D9BC01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDA90D243DC07100D9BC01 /* AppDelegate.swift */; };
+		67BDA910243DC07100D9BC01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDA90F243DC07100D9BC01 /* SceneDelegate.swift */; };
+		67BDA912243DC07100D9BC01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDA911243DC07100D9BC01 /* ViewController.swift */; };
+		67BDA915243DC07100D9BC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BDA913243DC07100D9BC01 /* Main.storyboard */; };
+		67BDA917243DC07400D9BC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BDA916243DC07400D9BC01 /* Assets.xcassets */; };
+		67BDA91A243DC07400D9BC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BDA918243DC07400D9BC01 /* LaunchScreen.storyboard */; };
+		67BDA925243DC07400D9BC01 /* MioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDA924243DC07400D9BC01 /* MioTests.swift */; };
+		67BDA930243DC07400D9BC01 /* MioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDA92F243DC07400D9BC01 /* MioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67BDA921243DC07400D9BC01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BDA902243DC07100D9BC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BDA909243DC07100D9BC01;
+			remoteInfo = Mio;
+		};
+		67BDA92C243DC07400D9BC01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67BDA902243DC07100D9BC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67BDA909243DC07100D9BC01;
+			remoteInfo = Mio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67BDA90A243DC07100D9BC01 /* Mio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BDA90D243DC07100D9BC01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67BDA90F243DC07100D9BC01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67BDA911243DC07100D9BC01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67BDA914243DC07100D9BC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67BDA916243DC07400D9BC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BDA919243DC07400D9BC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67BDA91B243DC07400D9BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BDA920243DC07400D9BC01 /* MioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BDA924243DC07400D9BC01 /* MioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MioTests.swift; sourceTree = "<group>"; };
+		67BDA926243DC07400D9BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BDA92B243DC07400D9BC01 /* MioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BDA92F243DC07400D9BC01 /* MioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MioUITests.swift; sourceTree = "<group>"; };
+		67BDA931243DC07400D9BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67BDA907243DC07100D9BC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BDA91D243DC07400D9BC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BDA928243DC07400D9BC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67BDA901243DC07100D9BC01 = {
+			isa = PBXGroup;
+			children = (
+				67BDA90C243DC07100D9BC01 /* Mio */,
+				67BDA923243DC07400D9BC01 /* MioTests */,
+				67BDA92E243DC07400D9BC01 /* MioUITests */,
+				67BDA90B243DC07100D9BC01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67BDA90B243DC07100D9BC01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67BDA90A243DC07100D9BC01 /* Mio.app */,
+				67BDA920243DC07400D9BC01 /* MioTests.xctest */,
+				67BDA92B243DC07400D9BC01 /* MioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67BDA90C243DC07100D9BC01 /* Mio */ = {
+			isa = PBXGroup;
+			children = (
+				67BDA90D243DC07100D9BC01 /* AppDelegate.swift */,
+				67BDA90F243DC07100D9BC01 /* SceneDelegate.swift */,
+				67BDA911243DC07100D9BC01 /* ViewController.swift */,
+				67BDA913243DC07100D9BC01 /* Main.storyboard */,
+				67BDA916243DC07400D9BC01 /* Assets.xcassets */,
+				67BDA918243DC07400D9BC01 /* LaunchScreen.storyboard */,
+				67BDA91B243DC07400D9BC01 /* Info.plist */,
+			);
+			path = Mio;
+			sourceTree = "<group>";
+		};
+		67BDA923243DC07400D9BC01 /* MioTests */ = {
+			isa = PBXGroup;
+			children = (
+				67BDA924243DC07400D9BC01 /* MioTests.swift */,
+				67BDA926243DC07400D9BC01 /* Info.plist */,
+			);
+			path = MioTests;
+			sourceTree = "<group>";
+		};
+		67BDA92E243DC07400D9BC01 /* MioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67BDA92F243DC07400D9BC01 /* MioUITests.swift */,
+				67BDA931243DC07400D9BC01 /* Info.plist */,
+			);
+			path = MioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67BDA909243DC07100D9BC01 /* Mio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BDA934243DC07400D9BC01 /* Build configuration list for PBXNativeTarget "Mio" */;
+			buildPhases = (
+				67BDA906243DC07100D9BC01 /* Sources */,
+				67BDA907243DC07100D9BC01 /* Frameworks */,
+				67BDA908243DC07100D9BC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mio;
+			productName = Mio;
+			productReference = 67BDA90A243DC07100D9BC01 /* Mio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67BDA91F243DC07400D9BC01 /* MioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BDA937243DC07400D9BC01 /* Build configuration list for PBXNativeTarget "MioTests" */;
+			buildPhases = (
+				67BDA91C243DC07400D9BC01 /* Sources */,
+				67BDA91D243DC07400D9BC01 /* Frameworks */,
+				67BDA91E243DC07400D9BC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BDA922243DC07400D9BC01 /* PBXTargetDependency */,
+			);
+			name = MioTests;
+			productName = MioTests;
+			productReference = 67BDA920243DC07400D9BC01 /* MioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67BDA92A243DC07400D9BC01 /* MioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BDA93A243DC07400D9BC01 /* Build configuration list for PBXNativeTarget "MioUITests" */;
+			buildPhases = (
+				67BDA927243DC07400D9BC01 /* Sources */,
+				67BDA928243DC07400D9BC01 /* Frameworks */,
+				67BDA929243DC07400D9BC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BDA92D243DC07400D9BC01 /* PBXTargetDependency */,
+			);
+			name = MioUITests;
+			productName = MioUITests;
+			productReference = 67BDA92B243DC07400D9BC01 /* MioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67BDA902243DC07100D9BC01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "SETA IKLIMLENDIRME";
+				TargetAttributes = {
+					67BDA909243DC07100D9BC01 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					67BDA91F243DC07400D9BC01 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 67BDA909243DC07100D9BC01;
+					};
+					67BDA92A243DC07400D9BC01 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 67BDA909243DC07100D9BC01;
+					};
+				};
+			};
+			buildConfigurationList = 67BDA905243DC07100D9BC01 /* Build configuration list for PBXProject "Mio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67BDA901243DC07100D9BC01;
+			productRefGroup = 67BDA90B243DC07100D9BC01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67BDA909243DC07100D9BC01 /* Mio */,
+				67BDA91F243DC07400D9BC01 /* MioTests */,
+				67BDA92A243DC07400D9BC01 /* MioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67BDA908243DC07100D9BC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BDA91A243DC07400D9BC01 /* LaunchScreen.storyboard in Resources */,
+				67BDA917243DC07400D9BC01 /* Assets.xcassets in Resources */,
+				67BDA915243DC07100D9BC01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BDA91E243DC07400D9BC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BDA929243DC07400D9BC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67BDA906243DC07100D9BC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BDA912243DC07100D9BC01 /* ViewController.swift in Sources */,
+				67BDA90E243DC07100D9BC01 /* AppDelegate.swift in Sources */,
+				67BDA910243DC07100D9BC01 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BDA91C243DC07400D9BC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BDA925243DC07400D9BC01 /* MioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BDA927243DC07400D9BC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BDA930243DC07400D9BC01 /* MioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67BDA922243DC07400D9BC01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BDA909243DC07100D9BC01 /* Mio */;
+			targetProxy = 67BDA921243DC07400D9BC01 /* PBXContainerItemProxy */;
+		};
+		67BDA92D243DC07400D9BC01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67BDA909243DC07100D9BC01 /* Mio */;
+			targetProxy = 67BDA92C243DC07400D9BC01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67BDA913243DC07100D9BC01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BDA914243DC07100D9BC01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67BDA918243DC07400D9BC01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BDA919243DC07400D9BC01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67BDA932243DC07400D9BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67BDA933243DC07400D9BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67BDA935243DC07400D9BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intherm.Mio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67BDA936243DC07400D9BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intherm.Mio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67BDA938243DC07400D9BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intherm.MioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mio.app/Mio";
+			};
+			name = Debug;
+		};
+		67BDA939243DC07400D9BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intherm.MioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mio.app/Mio";
+			};
+			name = Release;
+		};
+		67BDA93B243DC07400D9BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intherm.MioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mio;
+			};
+			name = Debug;
+		};
+		67BDA93C243DC07400D9BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intherm.MioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67BDA905243DC07100D9BC01 /* Build configuration list for PBXProject "Mio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BDA932243DC07400D9BC01 /* Debug */,
+				67BDA933243DC07400D9BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BDA934243DC07400D9BC01 /* Build configuration list for PBXNativeTarget "Mio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BDA935243DC07400D9BC01 /* Debug */,
+				67BDA936243DC07400D9BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BDA937243DC07400D9BC01 /* Build configuration list for PBXNativeTarget "MioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BDA938243DC07400D9BC01 /* Debug */,
+				67BDA939243DC07400D9BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BDA93A243DC07400D9BC01 /* Build configuration list for PBXNativeTarget "MioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BDA93B243DC07400D9BC01 /* Debug */,
+				67BDA93C243DC07400D9BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67BDA902243DC07100D9BC01 /* Project object */;
+}
