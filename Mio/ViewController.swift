@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tempReq.text = "22.0" + "°"
-        print("git")
 
     }
     @IBAction func btnMinus(_ sender: Any) {
