@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tempReq: UILabel!
+    @IBOutlet weak var homeTemp: UILabel!
+    @IBOutlet weak var humidity: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        tempReq.text = "22.0" + "°"
+        print("git")
 
+    }
+    @IBAction func btnMinus(_ sender: Any) {
+        
+    }
+    @IBAction func btnPlus(_ sender: Any) {
+        
+    }
 
 }
 
